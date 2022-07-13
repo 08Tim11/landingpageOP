@@ -1,0 +1,41 @@
+body {
+    margin:0;
+}
+
+.header {
+    flex-direction: row;
+    display: flex;
+    background-color:rgb(113, 167, 185); 
+    color:rgb(101, 101, 101);
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.Logo {
+    font-size:32px;
+    margin-left: 10px; 
+}
+
+.headerlinks {
+    flex-direction: row; 
+    display: flex;
+    gap: 20px; 
+    justify-content:flex-end;  
+    margin-right: 10px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(101, 101, 101);
+}
+
+.introduction {
+    flex-direction: row;
+    display: flex; 
+    flex: auto; 
+}
+
