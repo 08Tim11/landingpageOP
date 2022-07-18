@@ -1,12 +1,18 @@
 body {
+    flex-direction: column; 
+    display: flex; 
     margin:0;
+    min-height: 100vh; 
+    font-family: sans-serif; 
+    
+    
 }
 
 .header {
     flex-direction: row;
     display: flex;
-    background-color:rgb(113, 167, 185); 
-    color:rgb(101, 101, 101);
+    background-color:#1F2937; 
+    color:#f9faf8;
     align-items: center; 
     justify-content: space-between; 
 }
@@ -15,6 +21,7 @@ body {
     font-size:32px;
     margin-left: 10px; 
 }
+
 
 .headerlinks {
     flex-direction: row; 
@@ -30,12 +37,169 @@ ul {
 
 a {
     text-decoration: none;
-    color:rgb(101, 101, 101);
+    color:#f9faf8;;
 }
 
 .introduction {
     flex-direction: row;
+    display: flex;  
+    flex: auto; 
+    align-items: center; 
+    background-color: #1F2937;
+    color:#f9faf8;  
+
+}
+
+.welcome {
+    display:flex;
+    flex-direction: column; 
+    flex: auto; 
+    margin-left: 180px; 
+    margin-right:300px; 
+}
+
+
+.intro {
+    font-size: 48px;
+    font-weight:bolder;
+    padding-bottom:20px; 
+
+}
+
+.introtext {
+    font-size:18px;
+    justify-content: center; 
+    align-items: center; 
+    padding-bottom: 20px; 
+
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    border-radius: 60px; 
+    background-color:rgb(93, 12, 224);
+    font-size: 25px;
+    color: white; 
+    width: 200px; 
+
+}
+
+.placeholder {
+    display:flex;
+    background-color:rgb(17, 71, 89);
+    margin-right:180px; 
+    width:520px; 
+    height: 160px;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+
+
+.about {
+    flex-direction: column;
     display: flex; 
     flex: auto; 
+    justify-content: space-evenly; 
+   
 }
+
+.myself {
+    font-size:42px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   
+}
+
+.me {
+    flex-direction: row;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 120px; 
+    
+}
+
+.card {
+    border:2px solid rgb(93, 12, 224);
+    border-radius: 50px; ;
+    padding: 20px;
+
+   
+}
+
+.black {
+    color: black;
+}
+
+.projects {
+    flex-direction: column;
+    display: flex;
+    flex: auto; 
+    justify-content: space-evenly;
+    background-color:#e5e7eb; 
+
+}
+
+.current {
+    display: flex;
+    justify-content: center; 
+    font-size: 42px;
+}
+
+.examples {
+    flex-direction: row;
+    display: flex; 
+    justify-content: center; 
+    gap: 40px; 
+}
+
+.exone, .extwo, .exthree, .exfour {
+    border: 2px solid rgb(93, 12, 224);
+    border-radius: 10px;
+    padding: 30px;  
+    
+
+}
+
+.contact {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    flex: auto; 
+}
+
+.formular {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color:rgb(93, 12, 224); 
+    margin: 20px; 
+    margin-bottom:20px; 
+    border-radius:10px; 
+   
+}
+
+.mail {
+    display: flex; 
+    color: white;
+    padding-right:200px; 
+    padding-left:200px; 
+    font-size: 20px; 
+}
+
+.footer {
+    display: flex; 
+    background-color: #1F2937;
+    color: white; 
+    justify-content: center; 
+    padding:10px; 
+    margin-top: auto; 
+}
+
+   
+    
 
